@@ -30,8 +30,8 @@ display:flex;
 main{
   width: 75%;
   height: 995px;
-  background-color: #f2f2f2;
-  text-align: center;
+  background-color: #ffffff;
+
 
 }
 aside{
@@ -67,4 +67,11 @@ a:hover {
 /* selected link */
 a:active {
     color: #cc0000;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
