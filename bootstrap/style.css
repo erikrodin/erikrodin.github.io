@@ -5,9 +5,29 @@
 }
 #sida2{
   height: 800px;
-  
+
 }
 #sida3{
   height: 800px;
   background-color: #f2f2f2;
+}
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
 }
