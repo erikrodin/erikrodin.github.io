@@ -83,7 +83,7 @@ nav{
   display:flex;
 }
 main{
-  height:2400px;
+  height:2360px;
   width:700px;
   background-color: white;
   padding: 20px;
@@ -92,7 +92,7 @@ aside{
   height:2400px;
   width:200px;
   background-color: #e4f1f9;
-  color: #FFFFFF;
+  color: #000000;
 }
 footer{
   height: 20px;
