@@ -1,0 +1,38 @@
+header {
+  grid-area: header;
+  background-color: blue;
+}
+nav{
+  grid-area: nav;
+  background-color: grey;
+}
+footer {
+  grid-area: footer;
+  background-color: blue;
+}
+
+.sidebar-left {
+  grid-area: sidebar-1;
+  background-color: red;
+}
+
+main {
+  grid-area: main;
+  background-color: black;
+}
+
+.sidebar-right {
+  grid-area: sidebar-2;
+  background-color: red;
+}
+#wrapper {
+height: 100vh;
+  display: grid;
+  grid-template-columns: 15% 35% 35% 15%;
+  grid-template-rows: 20% 5% 80% 10%;
+  grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "sidebar-1 main main sidebar-2"
+    "footer footer footer footer";
+}
