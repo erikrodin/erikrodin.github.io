@@ -19,6 +19,7 @@ header {
 nav{
   grid-area: nav;
   background-color: #660000;
+
 }
 .dropbtn {
   background-color: #660000;
@@ -62,6 +63,7 @@ nav{
 .dropdown:hover .dropbtn {
   background-color: #660000;
 }
+
 footer {
   grid-area: footer;
   background-color: #1a0000;
