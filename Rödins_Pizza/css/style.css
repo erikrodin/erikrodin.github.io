@@ -78,7 +78,27 @@ footer {
 main {
   grid-area: main;
   background-color: black;
-
+}
+#startcontainer{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+#pizzacontainer{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#pizzacontainer div{
+  margin: 1%;
+  width: 30%;
+  background-color: white;
+  border-style: solid;
 }
 #containerslider{
   margin-left: 10%;
@@ -89,11 +109,14 @@ main {
   margin-left: 10%;
   margin-top: 2%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
 #maps{
   width: 30%;
   height: 70%;
-  margin-left: 20%;
+
 }
 iframe{
 width:100%;
@@ -101,12 +124,12 @@ height:100%;
 border:0px;
 }
 #infotext{
-  width: 20%;
-  height: 90%;
+  width: 30%;
+  height: 75%;
   background-color: white;
   margin-top: 2%;
   border-radius: 4%;
-  
+
 }
 #window{
 
@@ -161,7 +184,7 @@ border:0px;
   display: flex;
   width: 50%;
   height: 13%;
-  margin-left: 3.5%;
+  margin-left: 10%;
 }
 #höger{
     display: none;
@@ -230,4 +253,156 @@ height: 100vh;
     "nav nav nav nav"
     "sidebar-1 main main sidebar-2"
     "footer footer footer footer";
+}
+@media only screen and (max-width: 1050px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 5% 290% 10%;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "sidebar-1 main sidebar-2"
+    "footer footer footer";
+  }
+  #pizzacontainer div{
+    width: 45%;
+    height: 250px;
+  }
+  #logga{
+    margin-left: 35%;
+  }
+  #infotext{
+    width: 60%;
+    height: 20%;
+  }
+  #maps{
+    width: 60%;
+    padding-top: 10%;;
+  }
+  #window{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70%;
+  }
+}
+@media only screen and (max-width: 845px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 5% 290% 10%;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "sidebar-1 main sidebar-2"
+    "footer footer footer";
+  }
+  #logga{
+    margin-left: 25%;
+  }
+  #stämpel{
+    margin-left: 0%;
+  }
+  .dropbtn{
+    padding-left: 25%;
+  }
+  #window{
+    margin-left: 50%;
+  }
+
+}
+@media only screen and (max-width: 750px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 5% 290% 10%;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "sidebar-1 main sidebar-2"
+    "footer footer footer";
+  }
+  #logga{
+    margin-left: 25%;
+  }
+  #stämpel{
+    margin-left: 0%;
+    width: 150px;
+  }
+  .dropbtn{
+    padding-left: 25%;
+  }
+  #window{
+    margin-left: 35%;
+  }
+  #pizzacontainer div{
+    width: 70%;
+    height: 150px;
+  }
+}
+  @media only screen and (max-width: 600px) {
+    #wrapper {
+      display: grid;
+      grid-template-columns: 20% 60% 20%;
+      grid-template-rows: 20% 5% 290% 10%;
+      grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "sidebar-1 main sidebar-2"
+      "footer footer footer";
+    }
+    #logga{
+      margin-left: 30%;
+    }
+    #stämpel{
+      margin-left: 0%;
+      width: 150px;
+    }
+#infotext{
+  height: 25%;
+}
+#window{
+  margin-left: 20%;
+}
+
+}
+  @media only screen and (max-width: 540px) {
+    #wrapper {
+      display: grid;
+      grid-template-columns: 20% 60% 20%;
+      grid-template-rows: 20% 5% 290% 10%;
+      grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "sidebar-1 main sidebar-2"
+      "footer footer footer";
+    }
+    #logga{
+      margin-left: 24%;
+      width: 150px;
+    }
+    #stämpel{
+      margin-left: 0%;
+      width: 150px;
+    }
+    #pizzacontainer div{
+      width: 70%;
+      height: 150px;
+    }
+.dropbtn{
+  padding-left: 25%;
+  }
+  #infotext{
+    width: 50%;
+  }
+  #maps{
+    height: 40%;
+  }
+  #infotext{
+    height: 30%;
+  }
+  #window{
+    margin-left: 10%;
+  }
+
 }
