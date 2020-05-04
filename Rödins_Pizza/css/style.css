@@ -355,10 +355,7 @@ height: 100vh;
     #logga{
       margin-left: 30%;
     }
-    #stämpel{
-      margin-left: 0%;
-      width: 150px;
-    }
+
 #infotext{
   height: 25%;
 }
@@ -383,10 +380,7 @@ height: 100vh;
       width: 150px;
 
     }
-    #stämpel{
-      margin-left: 0%;
-      width: 150px;
-    }
+
     #pizzacontainer div{
       width: 70%;
       height: 150px;
@@ -424,5 +418,8 @@ height: 100vh;
   }
   #containerslider{
     margin-left: 0%;
+  }
+  #logga{
+    margin-left: 10%;
   }
 }
