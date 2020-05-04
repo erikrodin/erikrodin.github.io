@@ -408,3 +408,21 @@ height: 100vh;
   }
 
 }
+@media only screen and (max-width: 490px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 5% 290% 10%;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "sidebar-1 main sidebar-2"
+    "footer footer footer";
+  }
+  #infotext{
+    height: 60%;
+  }
+  #containerslider{
+    margin-left: 0%;
+  }
+}
