@@ -283,8 +283,11 @@ height: 100vh;
   #window{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 70%;
+
   }
+#containerslider{
+  margin-left: 35%;
+}
 }
 @media only screen and (max-width: 845px) {
   #wrapper {
@@ -306,8 +309,8 @@ height: 100vh;
   .dropbtn{
     padding-left: 25%;
   }
-  #window{
-    margin-left: 50%;
+  #containerslider{
+    margin-left: 25%;
   }
 
 }
@@ -332,9 +335,7 @@ height: 100vh;
   .dropbtn{
     padding-left: 25%;
   }
-  #window{
-    margin-left: 35%;
-  }
+
   #pizzacontainer div{
     width: 70%;
     height: 150px;
@@ -361,7 +362,7 @@ height: 100vh;
 #infotext{
   height: 25%;
 }
-#window{
+#containerslider{
   margin-left: 20%;
 }
 
@@ -380,6 +381,7 @@ height: 100vh;
     #logga{
       margin-left: 24%;
       width: 150px;
+
     }
     #stämpel{
       margin-left: 0%;
@@ -399,9 +401,9 @@ height: 100vh;
     height: 40%;
   }
   #infotext{
-    height: 30%;
+    height: 40%;
   }
-  #window{
+  #containerslider{
     margin-left: 10%;
   }
 
