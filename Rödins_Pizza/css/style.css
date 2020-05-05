@@ -243,6 +243,42 @@ border:0px;
   background-color: red;
   background-image: url("../bilder/träplank.jpg");
 }
+#pizza1{
+width: 100%;
+height: 100%;
+}
+#pizza2{
+  width: 100%;
+  height: 100%;
+}
+#pizza3{
+  width: 100%;
+  height: 100%;
+}
+#pizza4{
+  width: 100%;
+  height: 100%;
+}
+#pizza5{
+  width: 100%;
+  height: 100%;
+}
+#pizza6{
+  width: 100%;
+  height: 100%;
+}
+#pizza7{
+  width: 100%;
+  height: 100%;
+}
+#pizza8{
+  width: 100%;
+  height: 100%;
+}
+#pizza9{
+  width: 100%;
+  height: 100%;
+}
 #wrapper {
 height: 100vh;
   display: grid;
@@ -253,6 +289,18 @@ height: 100vh;
     "nav nav nav nav"
     "sidebar-1 main main sidebar-2"
     "footer footer footer footer";
+}
+@media only screen and (max-width: 2000px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 5% auto 10%;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "sidebar-1 main sidebar-2"
+    "footer footer footer";
+  }
 }
 @media only screen and (max-width: 1050px) {
   #wrapper {
