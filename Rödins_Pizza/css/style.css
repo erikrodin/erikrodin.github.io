@@ -432,9 +432,10 @@ height: 100vh;
   }
   #logga{
     margin-left: 0%;
-    width: 16 0px;
+    width: 50%;
+
   }
   #stämpel{
-    width: 150px;
+    width: 45%;
   }
 }
