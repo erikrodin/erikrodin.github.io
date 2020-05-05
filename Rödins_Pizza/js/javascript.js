@@ -1,3 +1,7 @@
+
+document.getElementById("window").style.display = "block";
+
+
 $("#dot1").show();
 $("#dot2").show();
 $("#dot3").show();
