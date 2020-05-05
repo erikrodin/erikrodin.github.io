@@ -1,19 +1,19 @@
 header {
   grid-area: header;
   background-color: black;
-  text-align: center;
+
 }
 #logga{
-  margin-left: 30%;
+  margin-left: 42%;
   width:200px;
   height: 150px;
-  background: url('../bilder/LoggaOchStämpel.png') 0 0;
+  background: url('../bilder/LoggaOchStämpel1.jpg') 0 0;
 
 }
 #stämpel{
-  width: 200px;
+  width: 150px;
   height: 150px;
-  background: url('../bilder/LoggaOchStämpel.png') -200px 0;
+  background: url('../bilder/LoggaOchStämpel1.jpg') -200px 0;
   margin-left: 15%;
 }
 nav{
@@ -270,7 +270,10 @@ height: 100vh;
     height: 250px;
   }
   #logga{
-    margin-left: 35%;
+    margin-left:40%;
+  }
+  #stämpel{
+    margin-left: 0%;
   }
   #infotext{
     width: 60%;
@@ -282,7 +285,7 @@ height: 100vh;
   }
   #window{
     display: flex;
-    
+
 
   }
 #containerslider{
@@ -301,7 +304,7 @@ height: 100vh;
     "footer footer footer";
   }
   #logga{
-    margin-left: 25%;
+    margin-left: 38%;
   }
   #stämpel{
     margin-left: 0%;
@@ -326,12 +329,9 @@ height: 100vh;
     "footer footer footer";
   }
   #logga{
-    margin-left: 25%;
+    margin-left: 20%;
   }
-  #stämpel{
-    margin-left: 0%;
-    width: 150px;
-  }
+
   .dropbtn{
     padding-left: 25%;
   }
@@ -352,9 +352,7 @@ height: 100vh;
       "sidebar-1 main sidebar-2"
       "footer footer footer";
     }
-    #logga{
-      margin-left: 30%;
-    }
+
 
 #infotext{
   height: 25%;
@@ -367,7 +365,7 @@ height: 100vh;
   @media only screen and (max-width: 540px) {
     #wrapper {
       display: grid;
-      grid-template-columns: 20% 60% 20%;
+      grid-template-columns: 10% 80% 10%;
       grid-template-rows: 20% 5% 290% 10%;
       grid-template-areas:
       "header header header"
@@ -376,9 +374,7 @@ height: 100vh;
       "footer footer footer";
     }
     #logga{
-      margin-left: 24%;
-      width: 150px;
-
+      margin-left: 0%;
     }
 
     #pizzacontainer div{
@@ -390,22 +386,21 @@ height: 100vh;
   }
   #infotext{
     width: 50%;
+    height: 25%;
   }
   #maps{
     height: 40%;
   }
-  #infotext{
-    height: 40%;
-  }
+
   #containerslider{
-    margin-left: 10%;
+    margin-left: 20%;
   }
 
 }
 @media only screen and (max-width: 400px) {
   #wrapper {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 10% 80% 10%;
     grid-template-rows: 20% 5% 290% 10%;
     grid-template-areas:
     "header header header"
@@ -414,12 +409,13 @@ height: 100vh;
     "footer footer footer";
   }
   #infotext{
-    height: 60%;
+    height: 40%;
   }
   #containerslider{
     margin-left: 0%;
   }
   #logga{
-    margin-left: 10%;
+    margin-left: 20%;
   }
+
 }
