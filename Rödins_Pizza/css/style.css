@@ -419,3 +419,22 @@ height: 100vh;
   }
 
 }
+@media only screen and (max-width: 380px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 20% 5% 290% 10%;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "sidebar-1 main sidebar-2"
+    "footer footer footer";
+  }
+  #logga{
+    margin-left: 0%;
+    width: 16 0px;
+  }
+  #stämpel{
+    width: 150px;
+  }
+}
