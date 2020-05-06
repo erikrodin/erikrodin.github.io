@@ -22,13 +22,13 @@ nav{
 
 }
 .dropbtn {
-  background-color: #660000;
+  background-color: black;
   color: white;
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: auto;
   border: none;
   cursor: pointer;
-  padding-left: 100%;
+  padding-left: 20%;
 }
 
 .dropdown {
@@ -243,10 +243,66 @@ border:0px;
   background-color: red;
   background-image: url("../bilder/träplank.jpg");
 }
-#pizza1{
-width: 100%;
-height: 100%;
+#box1{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza1.jpg");
+  color: yellow;
+
 }
+#box2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza2.jpg");
+  color: yellow;
+}
+#box3{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza3.jpg");
+  color: yellow;
+}
+#box4{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza4.jpg");
+  color: yellow;
+}
+#box5{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza5.jpg");
+  color: yellow;
+}
+#box6{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza6.jpg");
+  color: yellow;
+}
+#box7{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza7.jpg");
+  color: yellow;
+}
+#box8{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza8.jpg");
+  color: yellow;
+}
+#box9{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza9.jpg");
+  color: yellow;
+}
+#pizza1{
+  width: 100%;
+  height: 100%;
+}
+
 #pizza2{
   width: 100%;
   height: 100%;
@@ -294,7 +350,7 @@ height: 100vh;
   #wrapper {
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 20% 5% auto 10%;
+    grid-template-rows: 20% 5% 100% 10%;
     grid-template-areas:
     "header header header"
     "nav nav nav"
