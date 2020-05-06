@@ -243,60 +243,71 @@ border:0px;
   background-color: red;
   background-image: url("../bilder/träplank.jpg");
 }
+
 #box1{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza1.jpg");
   color: yellow;
-
+  font-style: oblique;
+  
 }
+
 #box2{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza2.jpg");
   color: yellow;
+  font-style: oblique;
 }
 #box3{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza3.jpg");
   color: yellow;
+  font-style: oblique;
 }
 #box4{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza4.jpg");
   color: yellow;
+  font-style: oblique;
 }
 #box5{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza5.jpg");
   color: yellow;
+  font-style: oblique;
 }
 #box6{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza6.jpg");
   color: yellow;
+  font-style: oblique;
 }
 #box7{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza7.jpg");
   color: yellow;
+  font-style: oblique;
 }
 #box8{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza8.jpg");
   color: yellow;
+  font-style: oblique;
 }
 #box9{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza9.jpg");
   color: yellow;
+  font-style: oblique;
 }
 #pizza1{
   width: 100%;
