@@ -250,7 +250,7 @@ border:0px;
   background-image: url("../bilder/pizza1.jpg");
   color: yellow;
   font-style: oblique;
-  
+
 }
 
 #box2{
@@ -309,42 +309,10 @@ border:0px;
   color: yellow;
   font-style: oblique;
 }
-#pizza1{
-  width: 100%;
-  height: 100%;
-}
-
-#pizza2{
-  width: 100%;
-  height: 100%;
-}
-#pizza3{
-  width: 100%;
-  height: 100%;
-}
-#pizza4{
-  width: 100%;
-  height: 100%;
-}
-#pizza5{
-  width: 100%;
-  height: 100%;
-}
-#pizza6{
-  width: 100%;
-  height: 100%;
-}
-#pizza7{
-  width: 100%;
-  height: 100%;
-}
-#pizza8{
-  width: 100%;
-  height: 100%;
-}
-#pizza9{
-  width: 100%;
-  height: 100%;
+.lägg-till{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
 #wrapper {
 height: 100vh;
