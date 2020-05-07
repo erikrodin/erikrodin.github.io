@@ -141,7 +141,7 @@ border:0px;
 #imgs{
 
   height: 200px;
-  width: 812px;
+  width: 608px;
   position: relative;
 
 }
@@ -314,6 +314,92 @@ border:0px;
   bottom: 8px;
   left: 16px;
 }
+.total{
+  color: white;
+}
+
+#stjärna1{
+  display: none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+#stjärna2{
+  display: none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+#stjärna3{
+  display: none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+#stjärna4{
+  display: none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+#stjärna5{
+  display: none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+#stjärna6{
+  display: none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+#stjärna7{
+  display: none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+#stjärna8{
+  display: none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+#stjärna9{
+  display: none;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+
 #wrapper {
 height: 100vh;
   display: grid;
@@ -348,10 +434,12 @@ height: 100vh;
     "sidebar-1 main sidebar-2"
     "footer footer footer";
   }
+
   #pizzacontainer div{
     width: 45%;
     height: 250px;
   }
+
   #logga{
     margin-left:40%;
   }
