@@ -21,6 +21,10 @@ $("#stjärna1").click(function(){
   }
 
 });
+let val = färg1;
+localStorage.answer = JSON.stringify(val);
+let saved = JSON.parse(localStorage.answer);
+
 var färg2 = 1;
 $("#stjärna2").click(function(){
 
