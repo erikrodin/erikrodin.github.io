@@ -8,127 +8,51 @@ $("#stjärna6").show();
 $("#stjärna7").show();
 $("#stjärna8").show();
 $("#stjärna9").show();
-var färg1 = 1;
-$("#stjärna1").click(function(){
 
-  if (färg1==1) {
-    document.getElementById("stjärna1").style.backgroundColor = "yellow";
-    färg1=2;
-  }
-  else if (färg1==2) {
-    document.getElementById("stjärna1").style.backgroundColor = "white";
-    färg1=1;
-  }
+$(".lägg-till").show();
+$(".store").show();
 
+$("#extrabeställning").show();
+
+document.getElementById("wrapper").style.gridTemplateRows = "20% 5% auto 10%";
+
+
+var pizzas = [];
+$(".store").click(function(){
+
+  if (!pizzas.includes(this.id)) {
+    document.getElementById(this.id).style.backgroundColor = "yellow";
+    pizzas.push(this.id);
+    console.log(pizzas);
+  }
+  else  {
+    document.getElementById(this.id).style.backgroundColor = "white";
+    var index = pizzas.indexOf(1);
+    if (index !== -1) pizzas.splice(index, 1);
+    console.log(pizzas);
+  }
+  localStorage.setItem("p", JSON.stringify(pizzas));
+
+  //...
+  var storedNames = JSON.parse(localStorage.getItem("p"));
+  console.log(storedNames);
 });
-let val = färg1;
-localStorage.answer = JSON.stringify(val);
-let saved = JSON.parse(localStorage.answer);
 
-var färg2 = 1;
-$("#stjärna2").click(function(){
+function allowDrop(ev) {
+  ev.preventDefault();
+}
 
-  if (färg2==1) {
-    document.getElementById("stjärna2").style.backgroundColor = "yellow";
-    färg2=2;
-  }
-  else if (färg2==2) {
-    document.getElementById("stjärna2").style.backgroundColor = "white";
-    färg2=1;
-  }
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
 
-});
-var färg3 = 1;
-$("#stjärna3").click(function(){
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
 
-  if (färg3==1) {
-    document.getElementById("stjärna3").style.backgroundColor = "yellow";
-    färg3=2;
-  }
-  else if (färg3==2) {
-    document.getElementById("stjärna3").style.backgroundColor = "white";
-    färg3=1;
-  }
 
-});
-var färg4 = 1;
-$("#stjärna4").click(function(){
-
-  if (färg4==1) {
-    document.getElementById("stjärna4").style.backgroundColor = "yellow";
-    färg4=2;
-  }
-  else if (färg4==2) {
-    document.getElementById("stjärna4").style.backgroundColor = "white";
-    färg4=1;
-  }
-
-});
-var färg5 = 1;
-$("#stjärna5").click(function(){
-
-  if (färg5==1) {
-    document.getElementById("stjärna5").style.backgroundColor = "yellow";
-    färg5=2;
-  }
-  else if (färg5==2) {
-    document.getElementById("stjärna5").style.backgroundColor = "white";
-    färg5=1;
-  }
-
-});
-var färg6 = 1;
-$("#stjärna6").click(function(){
-
-  if (färg6==1) {
-    document.getElementById("stjärna6").style.backgroundColor = "yellow";
-    färg6=2;
-  }
-  else if (färg6==2) {
-    document.getElementById("stjärna6").style.backgroundColor = "white";
-    färg6=1;
-  }
-
-});
-var färg7 = 1;
-$("#stjärna7").click(function(){
-
-  if (färg7==1) {
-    document.getElementById("stjärna7").style.backgroundColor = "yellow";
-    färg7=2;
-  }
-  else if (färg7==2) {
-    document.getElementById("stjärna7").style.backgroundColor = "white";
-    färg7=1;
-  }
-
-});
-var färg8 = 1;
-$("#stjärna8").click(function(){
-
-  if (färg8==1) {
-    document.getElementById("stjärna8").style.backgroundColor = "yellow";
-    färg8=2;
-  }
-  else if (färg8==2) {
-    document.getElementById("stjärna8").style.backgroundColor = "white";
-    färg8=1;
-  }
-
-});
-var färg9 = 1;
-$("#stjärna9").click(function(){
-
-  if (färg9==1) {
-    document.getElementById("stjärna9").style.backgroundColor = "yellow";
-    färg9=2;
-  }
-  else if (färg9==2) {
-    document.getElementById("stjärna9").style.backgroundColor = "white";
-    färg9=1;
-  }
-
-});
 document.getElementById("window").style.display = "block";
 
 

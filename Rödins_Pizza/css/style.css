@@ -309,15 +309,131 @@ border:0px;
   color: yellow;
   font-style: oblique;
 }
+.favoriter{
+  height: 154px;
+  width: 220px;
+}
+#box1-2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza1.jpg");
+  color: yellow;
+  font-style: oblique;
+  display: none;
+}
+
+#box2-2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza2.jpg");
+  color: yellow;
+  font-style: oblique;
+  display: none;
+}
+#box3-2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza3.jpg");
+  color: yellow;
+  font-style: oblique;
+  display: none;
+}
+#box4-2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza4.jpg");
+  color: yellow;
+  font-style: oblique;
+  display: none;
+}
+#box5-2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza5.jpg");
+  color: yellow;
+  font-style: oblique;
+  display: none;
+}
+#box6-2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza6.jpg");
+  color: yellow;
+  font-style: oblique;
+  display: none;
+}
+#box7-2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza7.jpg");
+  color: yellow;
+  font-style: oblique;
+  display: none;
+}
+#box8-2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza8.jpg");
+  color: yellow;
+  font-style: oblique;
+  display: none;
+}
+#box9-2{
+  position: relative;
+  text-align: center;
+  background-image: url("../bilder/pizza9.jpg");
+  color: yellow;
+  font-style: oblique;
+  display: none;
+}
+
 .lägg-till{
   position: absolute;
   bottom: 8px;
   left: 16px;
+  display: none;
+}
+.store{
+  display: none;
 }
 .total{
   color: white;
 }
+#beställningsidacontainer{
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
+}
+#köpknapp{
+  margin-left: 20%;
+}
+#extrabeställning{
+  width: 350px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: none;
+}
+#rubriker{
+  color: white;
+}
+#rubriker2{
+  color: white;
+  display: none;
+}
+.tillägg, .tilläggcontainer {
+  float: left;
+  width: 100px;
+  height: 55px;
+  margin: 5px;
+  padding: 5px;
+  border: 6px solid #660000;
+  background-color: white;
+  text-align: center;
+}
 #stjärna1{
   display: none;
   position: absolute;
@@ -499,6 +615,13 @@ height: 100vh;
     "sidebar-1 main sidebar-2"
     "footer footer footer";
   }
+  #extrabeställning{
+    margin-left: 20%;
+  }
+
+  #köpknapp{
+    margin-left: 25%;
+  }
   #logga{
     margin-left: 20%;
   }
@@ -523,7 +646,9 @@ height: 100vh;
       "sidebar-1 main sidebar-2"
       "footer footer footer";
     }
-
+    #extrabeställning{
+      margin-left: 10%;
+    }
 
 #infotext{
   height: 25%;
@@ -543,6 +668,12 @@ height: 100vh;
       "nav nav nav"
       "sidebar-1 main sidebar-2"
       "footer footer footer";
+    }
+    #extrabeställning{
+      margin-left: 10%;
+    }
+    #kortnummer{
+      margin-left: 20%;
     }
     #logga{
       margin-left: 0%;
@@ -599,6 +730,10 @@ height: 100vh;
     "sidebar-1 main sidebar-2"
     "footer footer footer";
   }
+  #extrabeställning{
+    margin-left: 0%;
+  }
+
   #logga{
     margin-left: 0%;
     width: 50%;
@@ -606,5 +741,18 @@ height: 100vh;
   }
   #stämpel{
     width: 45%;
+  }
+  #rubriker{
+    display: none;
+  }
+  #rubriker2{
+    padding: 5%;
+    display: block;
+  }
+  .tillägg, .tilläggcontainer {
+
+    width: 90px;
+    height: 55px;
+
   }
 }

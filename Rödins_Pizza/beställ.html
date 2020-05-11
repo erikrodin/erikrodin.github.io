@@ -34,7 +34,36 @@
   </aside>
 
 <main>
-<div class="total"></div>
+  <div id="beställningsidacontainer">
+
+
+  <div id="extrabeställning">
+
+<h3 id="rubriker">Dra över tillval till din betälning</h3>
+<h4 id="rubriker2">Dra över tillval till din betälning</h4>
+  <div class="tillägg" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h3 draggable="true" ondragstart="drag(event)" id="drag1">SÅS</h3>
+  </div>
+
+  <div class="tilläggcontainer" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+  <div class="tillägg" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h3 draggable="true" ondragstart="drag(event)" id="drag2">CHIPS</h3>
+  </div>
+
+  <div class="tilläggcontainer" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+  <div class="tillägg" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h3 draggable="true" ondragstart="drag(event)" id="drag3">LÖK</h3>
+  </div>
+
+  <div class="tilläggcontainer" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+<div id="köp">
+  <button type="button" id="köpknapp">KÖP</button>
+  <input type="text" name="" value="Ange kortnummer" id="kortnummer">
+</div>
+</div>
 </main>
 
   <aside class="sidebar-right">
