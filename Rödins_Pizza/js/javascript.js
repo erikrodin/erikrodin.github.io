@@ -14,8 +14,12 @@ $(".store").show();
 
 $("#extrabeställning").show();
 
-document.getElementById("wrapper").style.gridTemplateRows = "20% 5% auto 10%";
 
+
+document.getElementById("wrapper").style.gridTemplateRows = "20% 5% auto 10%";
+$("#köpknapp").click(function(){
+  alert("din beställning har skickats");
+});
 
 var pizzas = [];
 $(".store").click(function(){
