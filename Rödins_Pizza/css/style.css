@@ -708,6 +708,13 @@ height: 100vh;
     "sidebar-1 main sidebar-2"
     "footer footer footer";
   }
+  #rubriker{
+    display: none;
+  }
+  #rubriker2{
+    padding: 5%;
+    display: block;
+  }
   #infotext{
     height: 40%;
   }
@@ -742,13 +749,7 @@ height: 100vh;
   #stämpel{
     width: 45%;
   }
-  #rubriker{
-    display: none;
-  }
-  #rubriker2{
-    padding: 5%;
-    display: block;
-  }
+
   .tillägg, .tilläggcontainer {
 
     width: 90px;
