@@ -313,7 +313,38 @@ border:0px;
   height: 154px;
   width: 220px;
 }
-#box1-2{
+#rubriker3{
+  color: white;
+  display: none;
+  margin-left: 10px;
+}
+.mobil{
+  color: white;
+  display: none;
+  margin-left: 10px;
+}
+.mobilknapp{
+  display: none;
+  margin-left: 10px;
+}
+#rubriker3-2{
+  color: white;
+
+  margin-left: 10px;
+}
+.mobil-2{
+  color: white;
+
+  margin-left: 10px;
+}
+.mobilknapp-2{
+
+  margin-left: 10px;
+}
+#bestpizz{
+  margin-left: 20%;
+}
+#stjärna1f{
   position: relative;
   text-align: center;
   background-image: url("../bilder/pizza1.jpg");
@@ -619,7 +650,7 @@ height: 100vh;
     margin-left: 20%;
   }
 
-  #köpknapp{
+  #knapp{
     margin-left: 25%;
   }
   #logga{

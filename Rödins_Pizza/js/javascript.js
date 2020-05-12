@@ -4,7 +4,19 @@ function mobil() {
   return check;
 };
 var m=mobil();
-
+if (m==true) {
+  $(".tillägg").hide();
+  $(".tilläggcontainer").hide();
+  $("#rubriker").hide();
+  $("#rubriker2").hide();
+  $("#rubriker3").show();
+  $(".mobil").show();
+  $(".mobilknapp").show();
+}
+$("#rubriker3-2").hide();
+$(".mobil-2").hide();
+$(".mobilknapp-2").hide();
+$(".bestpizz").hide();
 $("#stjärna1").show();
 $("#stjärna2").show();
 $("#stjärna3").show();
