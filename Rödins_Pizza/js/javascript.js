@@ -13,6 +13,10 @@ if (m==true) {
   $(".mobil").show();
   $(".mobilknapp").show();
 }
+else {
+  $("#bestpizz").hide();
+}
+
 $("#rubriker3-2").hide();
 $(".mobil-2").hide();
 $(".mobilknapp-2").hide();
@@ -27,7 +31,7 @@ $("#stjärna7").show();
 $("#stjärna8").show();
 $("#stjärna9").show();
 
-$(".lägg-till").show();
+$(".läggtill").show();
 $(".store").show();
 
 $("#extrabeställning").show();
@@ -63,6 +67,32 @@ $(".store").click(function(){
 for (var i = 0; i < pizzas.length; i++) {
   $("#"+pizzas[i]+"f").show();
 }
+
+var total = [];
+$(".läggtill").click(function(){
+
+  if (!total.includes(this.id)) {
+
+    total.push(this.id);
+
+  }
+  else  {
+
+  var index = total.indexOf(this.id);
+  if (index !== -1) total.splice(index, 1);
+  console.log(total);
+
+  }
+  localStorage.setItem("k", JSON.stringify(total));
+
+  //...
+  var storedkostnad = JSON.parse(localStorage.getItem("k"));
+
+});
+var pris= total.lenght*75;
+$('#kostnad').text("Total: "+pris+" kr");
+
+
 
 function allowDrop(ev) {
   ev.preventDefault();

@@ -341,6 +341,13 @@ border:0px;
 
   margin-left: 10px;
 }
+#kostnad{
+  height: 10%;
+  width: 10%;
+  color: white;
+  padding-left: 60%;
+
+}
 #bestpizz{
   margin-left: 20%;
 }
@@ -418,7 +425,7 @@ border:0px;
   display: none;
 }
 
-.lägg-till{
+.läggtill{
   position: absolute;
   bottom: 8px;
   left: 16px;
