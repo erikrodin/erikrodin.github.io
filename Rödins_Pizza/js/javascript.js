@@ -61,11 +61,12 @@ $(".store").click(function(){
   localStorage.setItem("p", JSON.stringify(pizzas));
 
   //...
-  var storedNames = JSON.parse(localStorage.getItem("p"));
-  console.log(storedNames);
+
 });
-for (var i = 0; i < pizzas.length; i++) {
-  $("#"+pizzas[i]+"f").show();
+var storedNames = JSON.parse(localStorage.getItem("p"));
+console.log(storedNames);
+for (var i = 0; i < storedNames.length; i++) {
+  $("#"+storedNames[i]+"f").show();
 }
 
 var total = [];
@@ -86,10 +87,11 @@ $(".läggtill").click(function(){
   localStorage.setItem("k", JSON.stringify(total));
 
   //...
-  var storedkostnad = JSON.parse(localStorage.getItem("k"));
+
 
 });
-var pris= total.lenght*75;
+var storedkostnad = JSON.parse(localStorage.getItem("k"));
+var pris= storedkostnad.lenght()*75;
 $('#kostnad').text("Total: "+pris+" kr");
 
 
