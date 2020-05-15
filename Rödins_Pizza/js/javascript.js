@@ -31,6 +31,7 @@ $("#stjärna7").show();
 $("#stjärna8").show();
 $("#stjärna9").show();
 
+
 $(".läggtill").show();
 $(".store").show();
 
@@ -86,13 +87,10 @@ $(".läggtill").click(function(){
   }
   localStorage.setItem("k", JSON.stringify(total));
 
-  //...
-
-
 });
 var storedkostnad = JSON.parse(localStorage.getItem("k"));
-var pris= storedkostnad.lenght()*75;
-$('#kostnad').text("Total: "+pris+" kr");
+//var pris= storedkostnad.lenght()*75;
+//$("#kostnad").text("Total: "+pris+" kr");
 
 
 

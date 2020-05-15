@@ -94,12 +94,14 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 #pizzacontainer div{
   margin: 1%;
   width: 30%;
   background-color: white;
   border-style: solid;
 }
+
 #containerslider{
   margin-left: 10%;
 }
@@ -250,7 +252,7 @@ border:0px;
   background-image: url("../bilder/pizza1.jpg");
   color: yellow;
   font-style: oblique;
-
+  height: 175px;
 }
 
 #box2{
@@ -259,6 +261,7 @@ border:0px;
   background-image: url("../bilder/pizza2.jpg");
   color: yellow;
   font-style: oblique;
+  height: 175px;
 }
 #box3{
   position: relative;
@@ -266,6 +269,7 @@ border:0px;
   background-image: url("../bilder/pizza3.jpg");
   color: yellow;
   font-style: oblique;
+  height: 175px;
 }
 #box4{
   position: relative;
@@ -273,6 +277,7 @@ border:0px;
   background-image: url("../bilder/pizza4.jpg");
   color: yellow;
   font-style: oblique;
+  height: 175px;
 }
 #box5{
   position: relative;
@@ -280,6 +285,7 @@ border:0px;
   background-image: url("../bilder/pizza5.jpg");
   color: yellow;
   font-style: oblique;
+  height: 175px;
 }
 #box6{
   position: relative;
@@ -287,6 +293,7 @@ border:0px;
   background-image: url("../bilder/pizza6.jpg");
   color: yellow;
   font-style: oblique;
+  height: 175px;
 }
 #box7{
   position: relative;
@@ -294,6 +301,7 @@ border:0px;
   background-image: url("../bilder/pizza7.jpg");
   color: yellow;
   font-style: oblique;
+  height: 175px;
 }
 #box8{
   position: relative;
@@ -301,6 +309,7 @@ border:0px;
   background-image: url("../bilder/pizza8.jpg");
   color: yellow;
   font-style: oblique;
+  height: 175px;
 }
 #box9{
   position: relative;
@@ -308,6 +317,14 @@ border:0px;
   background-image: url("../bilder/pizza9.jpg");
   color: yellow;
   font-style: oblique;
+  height: 175px;
+}
+#favtext{
+  color: white;
+  margin-left: 20%;
+}
+#favinput{
+  margin-left: 40%;
 }
 .favoriter{
   height: 154px;
@@ -672,6 +689,7 @@ height: 100vh;
     width: 70%;
     height: 150px;
   }
+  
 }
   @media only screen and (max-width: 600px) {
     #wrapper {
@@ -717,10 +735,7 @@ height: 100vh;
       margin-left: 0%;
     }
 
-    #pizzacontainer div{
-      width: 70%;
-      height: 150px;
-    }
+
 .dropbtn{
   padding-left: 25%;
   }
