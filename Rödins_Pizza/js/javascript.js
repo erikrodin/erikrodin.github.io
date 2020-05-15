@@ -92,7 +92,7 @@ var storedkostnad = JSON.parse(localStorage.getItem("k"));
 //var pris= storedkostnad.lenght()*75;
 //$("#kostnad").text("Total: "+pris+" kr");
 
-
+//hej
 
 function allowDrop(ev) {
   ev.preventDefault();
