@@ -93,9 +93,33 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
 
+}
+#pizzacontainer2{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: none;
+}
+#favpizzor{
+
+
+  margin-left: 40%;
+}
+#favpizztext{
+  color: white;
+  margin-left: 30%;
+}
 #pizzacontainer div{
+  margin: 1%;
+  width: 30%;
+  background-color: white;
+  border-style: solid;
+}
+#pizzacontainer2 div{
   margin: 1%;
   width: 30%;
   background-color: white;
@@ -363,7 +387,7 @@ border:0px;
   width: 10%;
   color: white;
   padding-left: 60%;
-
+  display: none;
 }
 #bestpizz{
   margin-left: 20%;
@@ -605,12 +629,20 @@ height: 100vh;
     "sidebar-1 main sidebar-2"
     "footer footer footer";
   }
-
+#favpizzor{
+margin-left: 35%;
+}
+#favpizztext{
+  margin-left: 20%;
+}
   #pizzacontainer div{
     width: 45%;
     height: 250px;
   }
-
+  #pizzacontainer2 div{
+    width: 45%;
+    height: 250px;
+  }
   #logga{
     margin-left:40%;
   }
@@ -657,7 +689,12 @@ height: 100vh;
   #containerslider{
     margin-left: 25%;
   }
-
+  #favpizzor{
+  margin-left: 30%;
+  }
+  #favpizztext{
+    margin-left: 10%;
+  }
 }
 @media only screen and (max-width: 750px) {
   #wrapper {
@@ -670,6 +707,7 @@ height: 100vh;
     "sidebar-1 main sidebar-2"
     "footer footer footer";
   }
+
   #extrabeställning{
     margin-left: 20%;
   }
@@ -689,7 +727,13 @@ height: 100vh;
     width: 70%;
     height: 150px;
   }
-  
+  #pizzacontainer2 div{
+    width: 70%;
+    height: 150px;
+  }
+  #favpizzor{
+  margin-left: 20%;
+  }
 }
   @media only screen and (max-width: 600px) {
     #wrapper {

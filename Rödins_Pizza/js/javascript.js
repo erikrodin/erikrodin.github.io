@@ -16,7 +16,7 @@ if (m==true) {
 else {
   $("#bestpizz").hide();
 }
-
+$("#kostnad").show()
 $("#rubriker3-2").hide();
 $(".mobil-2").hide();
 $(".mobilknapp-2").hide();
@@ -30,8 +30,9 @@ $("#stjärna6").show();
 $("#stjärna7").show();
 $("#stjärna8").show();
 $("#stjärna9").show();
-
-
+$("#favpizztext").hide();
+$("#favpizzor").hide();
+$("#pizzacontainer2").show();
 $(".läggtill").show();
 $(".store").show();
 
