@@ -22,9 +22,9 @@ nav{
 
 }
 .dropbtn {
-  background-color: black;
-  color: white;
-  height: 90%;
+  background-color: white;
+
+  height: 30px;
   width: auto;
   border: none;
   cursor: pointer;
@@ -61,7 +61,7 @@ nav{
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #660000;
+  background-color: white;
 }
 
 footer {
@@ -215,7 +215,7 @@ border:0px;
 }
 #höger{
     display: none;
-    background-color: DodgerBlue;
+    background-color: brown;
     border: none;
     border-radius: 25px;
     color: white;
@@ -228,7 +228,7 @@ border:0px;
   }
 #vänster{
   display: none;
-  background-color: DodgerBlue;
+  background-color: brown;
   border: none;
   border-radius: 25px;
   color: white;
@@ -241,7 +241,7 @@ border:0px;
 }
 #bildspel{
   display: none;
-  background-color: DodgerBlue;
+  background-color: brown;
   border: none;
   border-radius: 25px;
   color: white;
@@ -254,7 +254,7 @@ border:0px;
 }
 #paus{
   display: none;
-  background-color: DodgerBlue;
+  background-color: brown;
   border: none;
   border-radius: 25px;
   color: white;
