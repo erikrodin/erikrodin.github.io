@@ -17,6 +17,7 @@ if (m==true) {
 else {
   $("#bestpizz").hide();
 }
+
 $("#kostnad").show()
 $("#rubriker3-2").hide();
 $(".mobil-2").hide();
