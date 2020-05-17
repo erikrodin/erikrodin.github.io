@@ -24,7 +24,7 @@ nav{
 .dropbtn {
   background-color: white;
 
-  height: 30px;
+  height: 27px;
   width: auto;
   border: none;
   cursor: pointer;
@@ -472,6 +472,7 @@ border:0px;
   bottom: 8px;
   left: 16px;
   display: none;
+
 }
 .store{
   display: none;
