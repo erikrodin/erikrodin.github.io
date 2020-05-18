@@ -253,3 +253,4 @@ $(document).ready(function(){ //gör så att koden kommer exikveras när hela do
         });
 
 });
+document.addEventListener('touchstart', onTouchStart, {passive: true});
